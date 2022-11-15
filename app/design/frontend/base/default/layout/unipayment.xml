@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<!--
+Unipayment Failure Response Review
+-->
+<unipayment_standard_failure>
+    <reference name="root">
+        <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+    </reference>
+    <reference name="content">
+        <block type="unipayment/standard_failure" name="unipayment_standard_failure" template="unipayment/standard/failure.phtml">
+        </block>
+    </reference>
+</unipayment_standard_failure>
+
+<unipayment_standard_success>
+    <reference name="root">
+        <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+    </reference>
+    <reference name="content">
+        <block type="unipayment/standard_success" name="unipayment_standard_success" template="unipayment/standard/success.phtml">
+        </block>
+    </reference>
+</unipayment_standard_success>
+
+</layout>

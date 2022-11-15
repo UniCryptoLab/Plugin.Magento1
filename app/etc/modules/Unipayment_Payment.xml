@@ -1,0 +1,12 @@
+<config>
+    <modules>
+              <Unipayment_Payment>
+                  <active>true</active>
+                  <codePool>community</codePool>
+                  <depends>
+                      <Mage_Payment />
+                  </depends>
+                   <version>1.1.3</version>
+               </Unipayment_Payment>
+           </modules>
+</config>
